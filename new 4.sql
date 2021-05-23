@@ -1,3 +1,4 @@
+тестовый текст
 WITH vals AS
 (
    SELECT * FROM UNNEST(ARRAY['planpackage','help2start','toelama','facebook','google_external','direct_internal', 'direct_external','google_internal','facebook_internal','facebook_external','elama','direct','adwords','google','vkontakte','targetMailRu','yadisplay','yaspravochnik','calltouch','yanavigator','calltracking','yagla','begun','yabayan','yamarket', 'report_subscription', 'lingvo_subscription', 'paid_care_service', 'adwords_external_account', 'direct_external_account', 'facebook_external_account', 'tiktok_ads', 'once_service', 'internal_account', 'yandex_zen','business','programmatic_betweenx']) AS value
